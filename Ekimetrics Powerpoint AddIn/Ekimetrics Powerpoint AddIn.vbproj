@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--
+    This section defines project-level properties.
+
+    AssemblyName
+      Name of the output assembly.
+    Configuration
+      Specifies a default value for debug.
+    OutputType
+      Must be "Library" for VSTO.
+    Platform
+      Specifies what CPU the output of this project can run on.
+    NoStandardLibraries
+      Set to "false" for VSTO.
+    RootNamespace
+      In C#, this specifies the namespace given to new files. In VB, all objects are
+      wrapped in this namespace at runtime.
+  -->
+  <PropertyGroup>
+    <ProjectTypeGuids>{BAA0C2D2-18E2-41B9-852F-F413020CAA33};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{81AE8D11-0CEC-4D8A-B1CD-FC8ED3275CC8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ekimetrics_Powerpoint_AddIn</RootNamespace>
+    <AssemblyName>Ekimetrics Powerpoint AddIn</AssemblyName>
+    <LoadBehavior>3</LoadBehavior>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DefineConstants>VSTO40</DefineConstants>
+    <StartupObject>
+    </StartupObject>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>HomeSite</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2010 Tools for Office Runtime %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <PropertyGroup>
+    <!--
+      OfficeApplication
+        Add-in host application
+    -->
+    <OfficeApplication>PowerPoint</OfficeApplication>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Debug" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Ekimetrics Powerpoint AddIn.xml</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <!--
+    This section defines properties that are set when the "Release" configuration is selected.
+
+    DebugSymbols
+      If "true", create symbols (.pdb). If "false", do not create symbols.
+    DefineConstants
+      Constants defined for the preprocessor.
+    EnableUnmanagedDebugging
+      If "true", starting the debugger will attach both managed and unmanaged debuggers.
+    Optimize
+      If "true", optimize the build output. If "false", do not optimize.
+    OutputPath
+      Output path of project relative to the project file.
+    WarningLevel
+      Warning level for the compiler.
+  -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Ekimetrics Powerpoint AddIn.xml</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <!--
+    This section specifies references for the project.
+  -->
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.v4.0.Framework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Tools.Applications.Runtime, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Tools.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Tools.Common.v4.0.Utilities, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Office, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>False</Private>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.PowerPoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <Private>False</Private>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <!-- Visual Basic supports importing namespaces (equivalent to "using" statements in C#). -->
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Text" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Office = Microsoft.Office.Core" />
+    <Import Include="PowerPoint = Microsoft.Office.Interop.PowerPoint" />
+  </ItemGroup>
+  <!--
+    This section defines the user source files that are part of the project.
+     
+    A "Compile" element specifies a source file to compile.
+    An "EmbeddedResource" element specifies an .resx file for embedded resources.
+    A "None" element specifies a file that is not to be passed to the compiler (for instance, 
+    a text file or XML file).
+    The "AppDesigner" element specifies the directory where the application properties files
+    can be found.
+  -->
+  <ItemGroup>
+    <AppDesigner Include="My Project\" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ribbon.vb">
+      <XmlRibbon>true</XmlRibbon>
+    </Compile>
+    <Compile Include="Ribbon1.Designer.vb">
+      <DependentUpon>Ribbon1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ribbon1.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThisAddIn.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Ribbon1.resx">
+      <DependentUpon>Ribbon1.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Ekimetrics Powerpoint AddIn_TemporaryKey.pfx" />
+    <None Include="Resources\Artificial Intelligence.emf" />
+    <None Include="Resources\Artificial Intelligence1.emf" />
+    <None Include="Resources\Artificial Intelligence11.emf" />
+    <None Include="Resources\Artificial Intelligence12.emf" />
+    <None Include="Resources\Artificial Intelligence2.emf" />
+    <None Include="Resources\Calendar Checked.emf" />
+    <None Include="Resources\Calendar Checked1.emf" />
+    <None Include="Resources\Calendar Checked11.emf" />
+    <None Include="Resources\Calendar Checked12.emf" />
+    <None Include="Resources\Calendar Checked2.emf" />
+    <None Include="Resources\Calendar.emf" />
+    <None Include="Resources\Calendar1.emf" />
+    <None Include="Resources\Cash - Copy.emf" />
+    <None Include="Resources\Cash.emf" />
+    <None Include="Resources\Cash1.emf" />
+    <None Include="Resources\Cash2.emf" />
+    <None Include="Resources\Check Box - Copy.emf" />
+    <None Include="Resources\Check Box - Copy1.emf" />
+    <None Include="Resources\Check Box.emf" />
+    <None Include="Resources\Check Box1.emf" />
+    <None Include="Resources\Check Box11.emf" />
+    <None Include="Resources\Check Box2.emf" />
+    <None Include="Resources\Checked - Copy.emf" />
+    <None Include="Resources\Checked.emf" />
+    <None Include="Resources\Checked1.emf" />
+    <None Include="Resources\Chess - Copy.emf" />
+    <None Include="Resources\Chess.emf" />
+    <None Include="Resources\Chess1.emf" />
+    <None Include="Resources\christmas tree - Copy.emf" />
+    <None Include="Resources\christmas tree.emf" />
+    <None Include="Resources\christmas tree1.emf" />
+    <None Include="Resources\Clock.emf" />
+    <None Include="Resources\Clock1.emf" />
+    <None Include="Resources\Cloud Locked.emf" />
+    <None Include="Resources\Cloud Locked1.emf" />
+    <None Include="Resources\Coins.emf" />
+    <None Include="Resources\Coins1.emf" />
+    <None Include="Resources\Coins2.emf" />
+    <None Include="Resources\Community 2.emf" />
+    <None Include="Resources\Community 21.emf" />
+    <None Include="Resources\Community.emf" />
+    <None Include="Resources\Community1.emf" />
+    <None Include="Resources\Computer.emf" />
+    <None Include="Resources\Computer1.emf" />
+    <None Include="Resources\Cross.emf" />
+    <None Include="Resources\Cross1.emf" />
+    <None Include="Resources\Cycle 2.emf" />
+    <None Include="Resources\Cycle 21.emf" />
+    <None Include="Resources\Cycle.emf" />
+    <None Include="Resources\Cycle1.emf" />
+    <None Include="Resources\Cycle11.emf" />
+    <None Include="Resources\Data.emf" />
+    <None Include="Resources\Data1.emf" />
+    <None Include="Resources\dislike.emf" />
+    <None Include="Resources\dislike1.emf" />
+    <None Include="Resources\EkiLogo.emf" />
+    <None Include="Resources\EkiLogo1.emf" />
+    <None Include="Resources\Facebook.emf" />
+    <None Include="Resources\Facebook1.emf" />
+    <None Include="Resources\Forecast.emf" />
+    <None Include="Resources\Forecast1.emf" />
+    <None Include="Resources\Forecast11.emf" />
+    <None Include="Resources\Globe.emf" />
+    <None Include="Resources\Globe1.emf" />
+    <None Include="Resources\Hour Glass.emf" />
+    <None Include="Resources\Hour Glass1.emf" />
+    <None Include="Resources\Idea.emf" />
+    <None Include="Resources\Idea1.emf" />
+    <None Include="Resources\increase.emf" />
+    <None Include="Resources\increase1.emf" />
+    <None Include="Resources\Magic Wand.emf" />
+    <None Include="Resources\Magic Wand1.emf" />
+    <None Include="Resources\Map Marker 2.emf" />
+    <None Include="Resources\Map Marker 21.emf" />
+    <None Include="Resources\Map Marker.emf" />
+    <None Include="Resources\Map Marker1.emf" />
+    <None Include="Resources\market share.emf" />
+    <None Include="Resources\market share1.emf" />
+    <None Include="Resources\money.emf" />
+    <None Include="Resources\money1.emf" />
+    <None Include="Resources\Network.emf" />
+    <None Include="Resources\Network1.emf" />
+    <None Include="Resources\Pen.emf" />
+    <None Include="Resources\Pen1.emf" />
+    <None Include="Resources\People Money.emf" />
+    <None Include="Resources\People Money1.emf" />
+    <None Include="Resources\People.emf" />
+    <None Include="Resources\People1.emf" />
+    <None Include="Resources\Price Tag.emf" />
+    <None Include="Resources\Price Tag1.emf" />
+    <None Include="Resources\ROI.emf" />
+    <None Include="Resources\ROI1.emf" />
+    <None Include="Resources\rugby ball.emf" />
+    <None Include="Resources\rugby ball1.emf" />
+    <None Include="Resources\soccer ball.emf" />
+    <None Include="Resources\soccer ball1.emf" />
+    <None Include="Resources\Star.emf" />
+    <None Include="Resources\Star1.emf" />
+    <None Include="Resources\Stop.emf" />
+    <None Include="Resources\Stop1.emf" />
+    <None Include="Resources\Target 2.emf" />
+    <None Include="Resources\Target 21.emf" />
+    <None Include="Resources\Target.emf" />
+    <None Include="Resources\Target1.emf" />
+    <None Include="Resources\temperature.emf" />
+    <None Include="Resources\temperature1.emf" />
+    <None Include="Resources\Timer.emf" />
+    <None Include="Resources\Timer1.emf" />
+    <None Include="Resources\ToDo List.emf" />
+    <None Include="Resources\ToDo List1.emf" />
+    <None Include="Resources\Tool.emf" />
+    <None Include="Resources\Tool1.emf" />
+    <None Include="Resources\TV Screen.emf" />
+    <None Include="Resources\TV Screen1.emf" />
+    <None Include="ThisAddIn.Designer.xml">
+      <DependentUpon>ThisAddIn.vb</DependentUpon>
+    </None>
+    <Compile Include="ThisAddIn.Designer.vb">
+      <DependentUpon>ThisAddIn.Designer.xml</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ribbon.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EkiLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EkiLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EkiLogo2.png" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Ekimetrics Powerpoint AddIn_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>EACD319B5916AC0377B2999875414084D55FE1F0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <!-- Include the build rules for a Visual Basic project. -->
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- Include additional build rules for an Office application add-in. -->
+  <Import Project="$(VSToolsPath)\OfficeTools\Microsoft.VisualStudio.Tools.Office.targets" Condition="'$(VSToolsPath)' != ''" />
+  <!-- This section defines VSTO properties that describe the host-changeable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{BAA0C2D2-18E2-41B9-852F-F413020CAA33}">
+        <ProjectProperties HostName="PowerPoint" HostPackage="{29A7B9D7-A7F1-4328-8EF0-6B2D1A56B2C1}" OfficeVersion="15.0" VstxVersion="4.0" ApplicationType="PowerPoint" Language="vb" TemplatesPath="" DebugInfoExeName="#Software\Microsoft\Office\16.0\PowerPoint\InstallRoot\Path#powerpnt.exe" AddItemTemplatesGuid="{DCFE8D25-4715-4C33-9EAB-A34A9EBC9544}" />
+        <Host Name="PowerPoint" IconIndex="0">
+          <HostItem Name="ThisAddIn" Code="ThisAddIn.vb" CanonicalName="AddIn" CanActivate="false" IconIndex="1" Blueprint="ThisAddIn.Designer.xml" GeneratedCode="ThisAddIn.Designer.vb" />
+        </Host>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

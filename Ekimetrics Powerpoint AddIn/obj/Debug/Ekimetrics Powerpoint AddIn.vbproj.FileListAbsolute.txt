@@ -1,0 +1,21 @@
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Ekimetrics Powerpoint AddIn.dll
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Ekimetrics Powerpoint AddIn.pdb
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Ekimetrics Powerpoint AddIn.xml
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Ekimetrics Powerpoint AddIn.dll.manifest
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Ekimetrics Powerpoint AddIn.vsto
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Microsoft.Office.Tools.Common.dll
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Microsoft.Office.Tools.dll
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.xml
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.xml
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Microsoft.Office.Tools.Common.xml
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\obj\Debug\Ekimetrics_Powerpoint_AddIn.Ribbon1.resources
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\obj\Debug\Ekimetrics_Powerpoint_AddIn.Resources.resources
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\obj\Debug\Ekimetrics Powerpoint AddIn.vbproj.GenerateResource.Cache
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\obj\Debug\Ekimetrics Powerpoint AddIn.dll
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\obj\Debug\Ekimetrics Powerpoint AddIn.xml
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\obj\Debug\Ekimetrics Powerpoint AddIn.pdb
+C:\Users\hvallet\Desktop\Ekimetrics Powerpoint AddIn\Ekimetrics Powerpoint AddIn\obj\Debug\Ekimetrics Powerpoint AddIn.vbprojResolveAssemblyReference.cache

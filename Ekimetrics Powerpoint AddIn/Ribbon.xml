@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab idMso="TabAddIns" label="Eki Tools">
+                <group id="Group1" label="Group1">
+                    <gallery id="Gallery1" onAction="Gallery1_Click" label="Gallery1" size="large" columns="3" itemHeight="50" itemWidth="50" showItemLabel="false">
+                        <item id="__id4" label="Artificial Intelligence1.emf" />
+                        <item id="__id5" label="Calendar Checked.emf" />
+                    </gallery>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>

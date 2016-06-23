@@ -1,0 +1,584 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Ekimetrics Powerpoint AddIn
+</name>
+</assembly>
+<members>
+<member name="T:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources._Stop">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Artificial_Intelligence11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Calendar">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Calendar_Checked11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Calendar1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cash___Copy">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cash1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Checked">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Checked___Copy">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Checked1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Chess">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Chess___Copy">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Chess1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.christmas_tree">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.christmas_tree___Copy">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.christmas_tree1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Clock">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Clock1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cloud_Locked">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cloud_Locked1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Coins">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Coins1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Community">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Community_2">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Community_21">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Community1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Computer">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Computer1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cross">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cross1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cycle">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cycle_2">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cycle_21">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Cycle1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Data">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Data1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.dislike">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.dislike1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.EkiLogo">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.EkiLogo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.EkiLogo11">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.EkiLogo12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.EkiLogo2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Facebook">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Facebook1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Forecast">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Forecast1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Globe">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Globe1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Hour_Glass">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Hour_Glass1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Idea">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Idea1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.increase">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.increase1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Magic_Wand">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Magic_Wand1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Map_Marker">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Map_Marker_2">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Map_Marker_21">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Map_Marker1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.market_share">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.market_share1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.money">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.money1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Network">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Network1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Pen">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Pen1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.People">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.People_Money">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.People_Money1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.People1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Price_Tag">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Price_Tag1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.ROI">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.ROI1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.rugby_ball">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.rugby_ball1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.soccer_ball">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.soccer_ball1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Star">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Star1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Stop1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Target">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Target_2">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Target_21">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Target1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.temperature">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.temperature1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Timer">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Timer1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.ToDo_List">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.ToDo_List1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Tool">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.Tool1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.TV_Screen">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="P:Ekimetrics_Powerpoint_AddIn.My.Resources.Resources.TV_Screen1">
+<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member>
+<member name="T:Ekimetrics_Powerpoint_AddIn.ThisRibbonCollection">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisRibbonCollection.#ctor(Microsoft.Office.Tools.Ribbon.RibbonFactory)">
+
+</member>
+<member name="T:Ekimetrics_Powerpoint_AddIn.ThisAddIn">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.#ctor(Microsoft.Office.Tools.Factory,System.IServiceProvider)">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.Initialize">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.FinishInitialization">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.InitializeDataBindings">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.InitializeCachedData">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.InitializeData">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.BindToData">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.StartCaching(System.String)">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.StopCaching(System.String)">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.IsCached(System.String)">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.BeginInitialization">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.EndInitialization">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.InitializeControls">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.InitializeComponents">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.NeedsFill(System.String)">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.ThisAddIn.OnShutdown">
+
+</member>
+<member name="T:Ekimetrics_Powerpoint_AddIn.Globals">
+
+</member>
+<member name="M:Ekimetrics_Powerpoint_AddIn.Globals.#ctor">
+
+</member>
+</members>
+</doc>
